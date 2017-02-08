@@ -722,7 +722,7 @@ Set obj = Me.Controls.Add("forms.Label.1")
 i = 2
 j = 0
 Erase compteur
-'calcul des valeurs de production et de rejets
+'calcul des valeurs de production et de rejet
 While Sheets("eolt").Cells(i, 1).Value <> ""
 Select Case Sheets("eolt").Cells(i, 17).Value
 Case Is = Order(0)
